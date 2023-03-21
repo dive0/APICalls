@@ -1,0 +1,95 @@
+html {
+  background-color: rgb(55, 89, 102);
+}
+
+.previous {
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #acc2e4b4;
+  color: #000;
+  padding: 15px 15px 15px 10px;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.currData {
+  padding: 30px;
+  text-align: center;
+  background: rgba(12, 13, 23, 0.87);
+  color: #fff;
+  border-radius: 30px;
+  width: 650px;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin:  auto;
+}
+
+.ban {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #acc2e4b4;
+  color: #000;
+  padding: 15px 15px 15px 10px;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+.attributes {
+  height: 40px;
+  margin: 20px 10px;
+  background-color: rgb(127, 193, 234);
+  border: 0;
+  border-radius: 20px;
+  font-size: 1.5em;
+}
+
+.attributes:hover {
+  transform: scale(1.2);
+}
+
+.queryNextButton {
+  height: 2em;
+  background-color: bisque;
+  border-radius: 20px;
+  font-size: 2em;
+}
+
+.queryNextButton:hover {
+  background-color: rgb(12, 69, 69);
+}
+
+.banAttr {
+  display: block;
+  background-color: #224e88;
+  font-size: 1.5em;
+  /* margin-top: 15px; */
+  color: #e3d2d2;
+  border-radius: 3em;
+  margin: 15px auto;
+}
+
+.banAttr:hover {
+  border-color: #c6ddfa;   
+}
